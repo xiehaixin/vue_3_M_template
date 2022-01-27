@@ -1,0 +1,58 @@
+{
+  "name": "vue_3_M_template",
+  "version": "1.0.0",
+  "description": "Vue 3 M端 项目模板",
+  "author": "xiehaixin@163.com",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --mode prod",
+    "lint": "vue-cli-service lint",
+    "build:prod-c": "vue-cli-service build --mode prod-c"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "axios": "^0.25.0",
+    "core-js": "^3.6.5",
+    "lib-flexible": "^0.3.2",
+    "px2rem-loader": "^0.1.9",
+    "vant": "^2.12.39",
+    "vue": "^3.0.0",
+    "vue-router": "^3.5.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "node-sass": "^4.14.1",
+    "sass": "^1.49.0",
+    "sass-loader": "^7.3.1",
+    "style-resources-loader": "^1.4.1",
+    "vue-cli-plugin-style-resources-loader": "~0.1.5"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 7 versions",
+    "not ie <= 8",
+    "ios >= 8",
+    "android >= 4.0"
+  ]
+}
